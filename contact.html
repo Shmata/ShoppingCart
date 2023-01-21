@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping | Landing Page</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Online Shop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarResponsive"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >خانه
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">تماس با ما</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container my-4">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>تماس با ما</h1>
+          <p>
+            برای پیگیری یا سوال درباره سفارش و ارسال پیام بهتر است از فرم زیر
+            استفاده کنید.
+          </p>
+          <hr />
+          <div class="alert alert-success" id="successMessage">
+            پیام شما با موفقیت ارسال شد.
+          </div>
+          <div class="alert alert-danger" id="errorMessage"></div>
+          <form id="contact-us-form">
+            <div class="row">
+              <div class="form-group col-md-4">
+                <label for="nameInput">نام و نام‌خانوادگی* </label>
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  id="nameInput"
+                />
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="emailInput">ایمیل*</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  id="emailInput"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-8">
+                <label for="titleInput">عنوان*</label>
+                <input
+                  type="text"
+                  name="title"
+                  class="form-control"
+                  id="titleInput"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-md-8">
+                <label for="textInput">متن پیام</label>
+                <textarea
+                  class="form-control"
+                  name="text"
+                  id="textInput"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">ارسال</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">کپی رایت &copy; ۲۰۲۰</p>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

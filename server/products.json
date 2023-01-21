@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"title": "Apple 16 \" laptop MacBook Pro MVVK2 2019",
+		"description": "صفحه کلید کاملا جدید ، صفحه نمایش بزرگتر ، صدای بهتر و عملکرد سریع تر باعث شده است که MacBook Pro 16 \" گزینه ای عالی برای کاربران حرفه ای باشد.",
+		"image": "http://localhost:3000/images/macbook.jpg",
+		"brand": "Apple",
+		"price": "62999000"
+	},
+	{
+		"id": 2,
+		"title": "lapton 15 \" Asus model ZenBook UX533FTC-X",
+		"description": "lapton Asus ZenBook UX533FTC یکی از باریک ترین lapton های زنبوک پرو شرکت Asus می باشد",
+		"image": "http://localhost:3000/images/asus.jpg",
+		"brand": "Asus",
+		"price": "34600000"
+	},
+	{
+		"id": 3,
+		"title": "lapton 15 \" Mircrosoft model Surface Book 2- B",
+		"description": "نسل هشتم پردازنده‌های سری Core i7 اینتل، حافظه داخلی SSD و 16 گیگابایت رم، از جمله عوامل قدرتمندبودن این دستگاه هستند.",
+		"image": "http://localhost:3000/images/surface.jpg",
+		"brand": "Mircrosoft",
+		"price": "58399000"
+	},
+	{
+		"id": 4,
+		"title": "lapton 15.6 \" Lenovo model ThinkPad E590 - A",
+		"description": "شرکت «Lenovo» سری لپ‌تاپ‌های محبوب ThinkPad پانزده \" خود را به نسل جدید پردازنده‌های اینتل تحت عنوان Kaby Lake R مجهز کرده",
+		"image": "http://localhost:3000/images/thinkpad.jpg",
+		"brand": "Lenovo",
+		"price": "15658210"
+	},
+	{
+		"id": 5,
+		"title": "lapton 15 \" modelMacBook Pro MPTR2",
+		"description": "صفحه کلید کاملا جدید ، صفحه نمایش بزرگتر ، صدای بهتر و عملکرد سریع تر باعث شده است که MacBook Pro 16 \" گزینه ای عالی برای کاربران حرفه ای باشد.",
+		"image": "http://localhost:3000/images/macbook2.jpg",
+		"brand": "Apple",
+		"price": "34000000"
+	}
+]

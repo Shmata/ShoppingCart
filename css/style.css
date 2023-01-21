@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('../fonts/Vazir-Bold.ttf');
+  font-weight: bold;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: Vazir;
+  direction: rtl;
+  padding-top: 56px;
+  padding-bottom: 50px;
+  text-align: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.product h4 {
+  font-size: 18px;
+}
+
+.product .card-text {
+  font-size: 14px;
+}
+
+.product .product-price {
+  color: #888;
+}
+
+.cart-item-title {
+  font-size: 14px;
+}
+
+#cart-list span {
+  font-size: 14px;
+}
+
+#successMessage,
+#errorMessage {
+  display: none;
+}
